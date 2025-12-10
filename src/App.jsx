@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { DEFAULT_CONFIG } from './ConfigDefaults.js';
+import { DEFAULT_CONFIG } from './configDefaults.js';
 
 function useConfig() {
   const [cfg, setCfg] = useState(() => {
@@ -91,4 +91,5 @@ export default function App() {
     </div>
   );
 }
+
 
